@@ -1,0 +1,22 @@
+/* Reset */
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+/* 重置表格元素 */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }/* 将斜体扶正 */
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
