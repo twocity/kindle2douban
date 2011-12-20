@@ -1,0 +1,122 @@
+body { font:12px/1.6 arial,helvetica,sans-serif; }
+a:link { color:#369;text-decoration:none; }
+a:visited { color:#669;text-decoration:none; }
+a:hover { color:#fff;text-decoration:none;background:#039; }
+a:active { color:#fff;text-decoration:none;background:#f93; }
+button { cursor:pointer;line-height:1.2; }
+
+#header-inner,logo { float:left;}
+#header {
+	position: relative;
+	height: 42px;
+	width: 100%;
+	background: #e7f3e7;
+	z-index: 15;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+#container {
+	text-align:left;
+	margin:0 auto
+}
+#page-outer {
+	width: 950px;
+	min-width: 950px;
+	max-width: 950px;
+	margin: 30px auto 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+/* ÔÄ¶Á±Ê¼Ç */
+#wrapper {
+	float:left;
+	width:65%
+}
+.main-content {
+	position: relative;
+	float: left;
+	width: 630px;
+	min-height: 600px;
+	background: #fff;
+	display: inline-block;
+	height: 100%;
+	z-index: 4;
+	zoom: 1;
+	height: auto!important;
+	_height: 600px;
+	_overflow: visible;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+/* ÔÄ¶Á¶¯Ì¬ */
+/*
+#bookboard {
+	background:#dde0e9;
+	float:right;
+	width:35%
+}
+*/
+.bookboard {
+	float: right;
+	width: 320px;
+	height: 100%;
+}
+/* footer */
+.fright { float:left; }
+#footer { width:100%;overflow:hidden; }
+#footer { color:#999;padding-top:6px;border-top: 1px dashed #ddd; }
+
+.stream-item {
+	position: relative;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	_width: 630px;
+	border-bottom: 1px solid #eff1f2;
+}
+.stream-item .mod {
+	padding: 15px 25px;
+	min-height: 48px;
+	height: auto!important;
+	height: 48px;
+	overflow: visible;
+}
+
+.stream-item .mod .hd {
+	position: absolute;
+	top: 16px;
+	line-height: 16px;
+}
+
+.stream-item .mod .icon-comments {
+	position: absolute;
+	right: 25px;
+	top: 16px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url('http://img3.douban.com/anduin/pics/comment_icon.gif') no-repeat right center;
+}
+.user-name a {
+	font-size: 14px;
+	font-weight: 800;
+	color: #000;
+	vertical-align: top;
+}
+
+.stream-item .text {
+	font-size: 14px;
+	color: #333;
+	word-wrap: break-word;
+}
+.stream-item .mod .bd .quote, .stream-item .mod .bd .quote a, .stream-item .mod .ft {
+	color: #999;
+}
+.stream-item .timestamp, .stream-item .source, .stream-item .reshared-by {
+	float: left;
+}
+
+
