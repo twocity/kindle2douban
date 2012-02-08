@@ -1,4 +1,5 @@
 # -*- encoding:utf-8 -*-
+# author : twocity
 
 import httplib,urlparse,cgi
 import time
